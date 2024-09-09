@@ -217,6 +217,7 @@ const TransformationForm = ({
                   <SelectValue placeholder="Select size" />
                 </SelectTrigger>
                 <SelectContent>
+                  connectToDatabase
                   {Object.keys(aspectRatioOptions).map((key) => (
                     <SelectItem key={key} value={key} className="select-item">
                       {aspectRatioOptions[key as AspectRatioKey].label}
