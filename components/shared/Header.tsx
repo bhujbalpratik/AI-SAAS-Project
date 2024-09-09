@@ -2,7 +2,7 @@ import React from "react"
 
 type Props = {
   title: string
-  subtitle: string
+  subtitle?: string
 }
 const Header = ({ title, subtitle }: Props) => {
   return (
